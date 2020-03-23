@@ -1,6 +1,6 @@
-class Post
+class Post 
   
-  attr_accessor :title, :author
+  attr_accessor :author, :title
   
   @@all = []
   
@@ -9,17 +9,12 @@ class Post
     @@all << self
   end
   
-  def self.all
+  def self.all 
     @@all
-  end  
-
-  def author_name
-    self.author ? self.author.name : nil
-    # if self.author 
-    #   return self.author.name
-    # else 
-    #   return nil
-    # end
   end
-
+  
+  def author_name 
+    self.author ? self.author.name : nil
+  end
+  
 end
