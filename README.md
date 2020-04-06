@@ -1,10 +1,11 @@
-# Ruby Objects Has Many Lab
+cl# Ruby Objects Has Many Lab
 
 ## Objectives
 
 - Build out the has many/belongs to relationship between two classes.
 - Build methods that use the has many/belongs to relationship between two classes.
-- Use a class variable to track data about a class.
+- Use a c
+- lass variable to track data about a class.
 - Build a class method to expose data stored in a class variable.
 
 ## Instructions
